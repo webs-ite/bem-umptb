@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.788);
+}
+
+header {
+    height: 80px;
+    box-shadow: 10px 0 10px black;
+    background-color: white;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+header img {
+    width: 200px;
+    padding: 14px;
+}
+
+.navbar {
+    float: right;
+}
+
+nav {
+    text-align: right;
+    margin: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px 15px;
+    color: royalblue;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.navbar img {
+    width: 25px;
+    display: none;
+    float: right;
+    padding: 25px;
+}
+
+nav ul li:hover {
+    color: darkorange;
+}
+
+.sosmed i:hover {
+    font-weight: bolder;
+    color: darkorange;
+}
+
+.sosmed a {
+    padding: 10px;
+}
+
+.fa-whatsapp {
+    color: limegreen;
+}
+
+.fa-facebook {
+    color: royalblue;
+}
+
+.fa-instagram {
+    color: blueviolet;
+}
+
+.fa-envelope-o {
+    color: red;
+}
+
+/* fixed */
+
+.fixed {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: all 0.3s ease-out;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    z-index: 999;
+}
+
+.scroll {
+    top: -90px;
+}
+
+.no-scroll {
+    top: 0px;
+    z-index: 999;
+}
+
+/* fixed */
+
+/* page2 */
+
+.banner {
+    height: 100vh;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: default;
+}
+
+.banner::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 94, 255, 0.5);
+    z-index: -1;
+}
+
+.banner h2 {
+    font-size: 18ex;
+    font-family: 'Allerta Stencil', cursive;
+    text-align: center;
+    color: lavender;
+    z-index: 1;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
+}
+
+.banner h3 {
+    font-size: 18ex;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 114, 26);
+    z-index: 1;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.592);
+}
+
+/* page3 */
+
+.banner2 {
+    height: 100vh;
+    background-image: url('../img/banner2.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: default;
+}
+
+.banner2::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 94, 255, 0.5);
+    z-index: -1;
+}
+
+.banner2 h2 {
+    font-size: 18ex;
+    font-family: 'Allerta Stencil', cursive;
+    text-align: center;
+    color: lavender;
+    z-index: 1;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
+}
+
+@media only screen and (max-width:1200px) {
+    nav ul a li {
+        display: none;
+    }
+    .sosmed {
+        display: none;
+    }
+    .navbar img {
+        float: right;
+        display: block;
+    }
+    .banner h2 {
+        font-size: 14ex;
+    }
+    .banner h3 {
+        font-size: 14ex;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:800px) {
+    .container {
+        width: 100%;
+    }
+    .banner h2 {
+        font-size: 10ex;
+    }
+    .banner h3 {
+        font-size: 10ex;
+    }
+}
+
+@media only screen and (max-width:510px) {
+    .banner h2 {
+        font-size: 6ex;
+    }
+    .banner h3 {
+        font-size: 6ex;
+    }
+}

@@ -16,7 +16,7 @@ body {
 
 header {
     height: 80px;
-    box-shadow: 10px 0 10px black;
+    box-shadow: 0 3px 15px black;
     background-color: white;
 }
 
@@ -88,26 +88,29 @@ nav ul li:hover {
 .sidebar {
     text-align: center;
     position: fixed;
-    top: 80px;
-    right: -500px;
+    /* top: 80px; */
+    left: 0;
+    right: 0;
+    top: -500px;
     bottom: auto;
-    width: 30vh;
-    z-index: 999;
+    background-color: white;
+    z-index: 998;
+    margin: auto;
+    padding: 15px;
 }
 
 .sidebar ul {
     margin-top: 5px;
 }
 
-.sidebar ul li {
+.sidebar ul a li {
     display: block;
     padding-bottom: 18px;
     padding-top: 18px;
     color: rgb(0, 94, 255);
-    background-color: white;
-    border: 2px solid rgb(0, 94, 255);
+    /* border: 2px solid rgb(0, 94, 255); */
     border-radius: 50px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Signika Negative', sans-serif;
 }
 
@@ -121,7 +124,7 @@ nav ul li:hover {
 }
 
 #check:checked~.sidebar {
-    right: 10px;
+    top: 75px;
     transition: 1s;
 }
 
@@ -183,7 +186,7 @@ nav ul li:hover {
 
 .banner h2 {
     font-size: 18ex;
-    font-family: 'Allerta Stencil', cursive;
+    font-family: 'Allerta Stencil';
     text-align: center;
     color: lavender;
     z-index: 1;
@@ -227,11 +230,114 @@ nav ul li:hover {
 
 .banner2 h2 {
     font-size: 18ex;
-    font-family: 'Allerta Stencil', cursive;
+    font-family: 'Allerta Stencil';
     text-align: center;
     color: lavender;
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
+}
+
+/* page4 */
+
+.banner3 {
+    height: 100vh;
+    background-image: url('../img/banner3.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    cursor: default;
+    padding-top: 30px;
+    color: white;
+}
+
+.banner3::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 94, 255, 0.5);
+    z-index: -1;
+}
+
+.banner3 h2 {
+    font-size: 6ex;
+    font-family: 'Allerta Stencil';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
+    padding-right: 30px;
+    text-shadow: 2px 3px 1px black;
+}
+
+.banner3 ul {
+    width: 48%;
+    background-color: rgba(26, 255, 26, 0.27);
+    border-radius: 30px;
+    padding: 20px;
+}
+/* 
+.banner3 img {
+    width: 25vw;
+    padding: 50px;
+} */
+
+.ketua {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.ketua h3 {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: rgb(198, 44, 44);
+    border-style: outset;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.menteri {
+    float: left;
+    width: 50%;
+}
+
+.dirjen {
+    float: right;
+    width: 50%;
+}
+
+.menteri p {
+    text-align: justify;
+    padding: 10px 20px;
+    background-color: rgb(53, 91, 126);
+    border-style: outset;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.dirjen p {
+    text-align: justify;
+    padding: 10px 20px;
+    background-color: rgba(53, 131, 33, 0.939);
+    border-style: outset;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.ketua h3:hover {
+    color: rgb(255, 114, 26);
+}
+
+.menteri p:hover {
+}
+
+.dirjen p:hover {
 }
 
 @media only screen and (max-width:1200px) {
@@ -251,6 +357,27 @@ nav ul li:hover {
     .banner h3 {
         font-size: 14ex;
     }
+    .ketua h3{
+        font-size: 15px;
+    }
+    .ketua {
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+    
+    .dirjen p{
+        font-size: 13px;
+    }
+
+    .menteri p{
+        font-size: 13px;
+    }
+    .banner3 h2{
+        font-size: 30px;
+    }
+    .banner3 ul{
+        padding: 10px;
+    }
 }
 
 @media only screen and (min-width:200px) and (max-width:800px) {
@@ -263,17 +390,27 @@ nav ul li:hover {
     .banner h3 {
         font-size: 10ex;
     }
-    .sidebar{
-        width: 25vh;
+    .sidebar {
+        /* width: 25vh; */
     }
-    .sidebar ul li{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 16px;
+    .sidebar ul a li {
+        font-size: 18px;
     }
     #check:checked~.sidebar {
-        right: 5px;
         transition: 1s;
+    }
+    .banner3 ul {
+        width: 90%;
+    }
+    .banner3 h2{
+        display: none;
+    }
+
+    .banner3 ul{
+        padding: 20px;
+    }
+    .ketua{
+        padding-bottom: 25px;
     }
 }
 
@@ -284,12 +421,38 @@ nav ul li:hover {
     .banner h3 {
         font-size: 6ex;
     }
-    .sidebar{
-        width: 20vh;
+    .sidebar {
+        /* width: 20vh; */
     }
-    .sidebar ul li{
-        padding-top: 6px;
-        padding-bottom: 6px;
-        font-size: 15px;
+    .sidebar ul a li {
+        font-size: 16px;
     }
-}
+    #check:checked~.sidebar {
+        top: 70px;
+    }
+    .banner3{
+        height: 120vh;
+    }
+    .banner3 ul {
+        width: 90%;
+    }
+    .banner3 h2{
+        display: none;
+    }
+
+    .banner3 ul{
+        padding: 8px;
+        border-radius: 20px;
+    }
+    .ketua{
+        padding-bottom: 4px;
+    }
+    .ketua h3{
+        font-size: 12px;
+    }
+    .menteri p{
+        font-size: 10px;
+    }
+    .dirjen p{
+        font-size: 10px;
+    }

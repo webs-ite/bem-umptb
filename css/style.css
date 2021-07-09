@@ -224,12 +224,12 @@ nav ul li:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 94, 255, 0.5);
+    background-color: rgba(0, 69, 189, 0.678);
     z-index: -1;
 }
 
 .banner2 h2 {
-    font-size: 18ex;
+    font-size: 15vw;
     font-family: 'Allerta Stencil';
     text-align: center;
     color: lavender;
@@ -250,6 +250,7 @@ nav ul li:hover {
     z-index: 1;
     cursor: default;
     padding-top: 30px;
+    padding-bottom: 30px;
     color: white;
 }
 
@@ -276,12 +277,20 @@ nav ul li:hover {
     text-shadow: 2px 3px 1px black;
 }
 
+.banner3 h3 {
+    font-size: 2ex;
+    text-align: center;
+    padding: 5px;
+}
+
 .banner3 ul {
     width: 48%;
-    background-color: rgba(26, 255, 26, 0.27);
+    background-color: rgba(239, 239, 239, 0.281);
     border-radius: 30px;
     padding: 20px;
+    padding-bottom: 20px;
 }
+
 /* 
 .banner3 img {
     width: 25vw;
@@ -304,27 +313,13 @@ nav ul li:hover {
 
 .menteri {
     float: left;
-    width: 50%;
-}
-
-.dirjen {
-    float: right;
-    width: 50%;
+    width: 100%;
 }
 
 .menteri p {
-    text-align: justify;
+    text-align: center;
     padding: 10px 20px;
     background-color: rgb(53, 91, 126);
-    border-style: outset;
-    border-radius: 20px;
-    font-weight: bold;
-}
-
-.dirjen p {
-    text-align: justify;
-    padding: 10px 20px;
-    background-color: rgba(53, 131, 33, 0.939);
     border-style: outset;
     border-radius: 20px;
     font-weight: bold;
@@ -335,11 +330,113 @@ nav ul li:hover {
 }
 
 .menteri p:hover {
+    color: rgb(255, 114, 26);
 }
 
-.dirjen p:hover {
+.banner4 {
+    height: 100vh;
+    background-image: url('../img/banner4.jpg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    cursor: default;
+    padding-top: 30px;
+    color: white;
 }
 
+.banner4::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(18, 47, 121);
+    z-index: -1;
+}
+.contact h2 {
+    color: white;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1px rgba(0, 0, 0, 0.705);
+}
+
+.contact {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 0.5px 1.5px 1px rgba(0, 0, 0, 0.705);
+}
+
+.kolombawah {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.lokasi h4 {
+    padding: 20px;
+    border-style: outset;
+    background-color: royalblue;
+}
+
+.lokasi p {
+    padding: 10px;
+}
+
+.kontak h4 {
+    padding: 20px;
+    border-style: outset;
+    background-color: blueviolet;
+}
+
+.kontak p {
+    padding: 10px;
+}
+
+.alamat h4 {
+    padding: 20px;
+    border-style: outset;
+    background-color: tomato;
+}
+
+.alamat p {
+    padding: 10px;
+}
+
+.jarak {
+    width: 15%;
+}
+
+iframe {
+    width: 78%;
+    height: 350px;
+    padding: 30px;
+}
+
+footer {
+    height: 5vh;
+    background-color: rgb(18, 47, 121);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h5 {
+    padding: 5px;
+}
+
+#home{
+    padding-top: 50px;
+}
 @media only screen and (max-width:1200px) {
     nav ul a li {
         display: none;
@@ -357,26 +454,24 @@ nav ul li:hover {
     .banner h3 {
         font-size: 14ex;
     }
-    .ketua h3{
+    .ketua h3 {
         font-size: 15px;
     }
     .ketua {
         padding-top: 10px;
         padding-bottom: 8px;
     }
-    
-    .dirjen p{
+    .menteri p {
         font-size: 13px;
     }
-
-    .menteri p{
-        font-size: 13px;
-    }
-    .banner3 h2{
+    .banner3 h2 {
         font-size: 30px;
     }
-    .banner3 ul{
+    .banner3 ul {
         padding: 10px;
+    }
+    .jarak {
+        width: 8%;
     }
 }
 
@@ -400,17 +495,46 @@ nav ul li:hover {
         transition: 1s;
     }
     .banner3 ul {
-        width: 90%;
+        width: 80%;
     }
-    .banner3 h2{
+    .banner3 h2 {
         display: none;
     }
-
-    .banner3 ul{
-        padding: 20px;
+    .banner3 ul {
+        padding: 30px;
     }
-    .ketua{
+    .ketua {
         padding-bottom: 25px;
+    }
+    .jarak {
+        width: 2%;
+    }
+    .lokasi h4 {
+        padding: 5px;
+        width: 60%;
+        margin: auto;
+    }
+    .kontak h4 {
+        padding: 5px;
+        width: 60%;
+        margin: auto;
+    }
+    .alamat h4 {
+        padding: 5px;
+        width: 60%;
+        margin: auto;
+    }
+    .lokasi p {
+        font-size: 14px;
+    }
+    .kontak p {
+        font-size: 14px;
+    }
+    .alamat p {
+        font-size: 14px;
+    }
+    .contact {
+        width: 100%;
     }
 }
 
@@ -430,29 +554,47 @@ nav ul li:hover {
     #check:checked~.sidebar {
         top: 70px;
     }
-    .banner3{
-        height: 120vh;
+    .banner3 {
+        height: inherit;
     }
     .banner3 ul {
         width: 90%;
     }
-    .banner3 h2{
+    .banner3 h2 {
         display: none;
     }
-
-    .banner3 ul{
+    .banner3 h3 {
+        display: block;
+    }
+    .banner3 ul {
         padding: 8px;
         border-radius: 20px;
     }
-    .ketua{
+    .ketua {
         padding-bottom: 4px;
     }
-    .ketua h3{
+    .ketua h3 {
         font-size: 12px;
     }
-    .menteri p{
+    .menteri p {
         font-size: 10px;
     }
-    .dirjen p{
+    .kolombawah {
+        display: inline;
+    }
+    .banner4 {
+        height: inherit;
+    }
+    .lokasi {
+        padding-bottom: 20px;
+    }
+    .kontak {
+        padding-bottom: 20px;
+    }
+    .alamat {
+        padding-bottom: 20px;
+    }
+    footer h5{
         font-size: 10px;
     }
+}

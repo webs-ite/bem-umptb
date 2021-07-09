@@ -237,6 +237,16 @@ nav ul li:hover {
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
 }
 
+.banner2 h3 {
+    font-size: 6vw;
+    font-family: 'Allerta Stencil';
+    text-align: center;
+    color: lavender;
+    z-index: 1;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
+    padding: 15px;
+}
+
 /* page4 */
 
 .banner3 {
@@ -291,7 +301,7 @@ nav ul li:hover {
     padding-bottom: 20px;
 }
 
-/* 
+/*
 .banner3 img {
     width: 25vw;
     padding: 50px;
@@ -434,7 +444,7 @@ footer h5 {
     padding: 5px;
 }
 
-#home{
+#home {
     padding-top: 50px;
 }
 @media only screen and (max-width:1200px) {
@@ -594,7 +604,7 @@ footer h5 {
     .alamat {
         padding-bottom: 20px;
     }
-    footer h5{
+    footer h5 {
         font-size: 10px;
     }
 }

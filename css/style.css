@@ -209,11 +209,12 @@ nav ul li:hover {
     background-image: url('../img/banner2.jpg');
     background-size: cover;
     position: relative;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     z-index: 1;
     cursor: default;
+    padding-top: 80px;
 }
 
 .banner2::after {
@@ -229,7 +230,7 @@ nav ul li:hover {
 }
 
 .banner2 h2 {
-    font-size: 15vw;
+    font-size: 4ex;
     font-family: 'Allerta Stencil';
     text-align: center;
     color: lavender;
@@ -238,13 +239,36 @@ nav ul li:hover {
 }
 
 .banner2 h3 {
-    font-size: 6vw;
+    font-size: 2ex;
     font-family: 'Allerta Stencil';
     text-align: center;
     color: lavender;
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-    padding: 15px;
+}
+.motto{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.motto h2{
+    padding-bottom: 20px;
+}
+.visi{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.visi h2{
+    padding-bottom: 20px;
+}
+.misi{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.misi h2{
+    padding-bottom: 20px;
 }
 
 /* page4 */
@@ -283,33 +307,42 @@ nav ul li:hover {
     color: white;
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-    padding-right: 30px;
+    padding-right: 80px;
     text-shadow: 2px 3px 1px black;
 }
 
-.banner3 h3 {
-    font-size: 2ex;
+/* .banner3 h3 {
+    font-size: 3ex;
+    font-family: 'Allerta Stencil';
     text-align: center;
     padding: 5px;
+    display: none;
+} */
+.judul {
+    font-size: 3ex;
+    font-family: 'Allerta Stencil';
+    text-align: center;
+    padding: 5px;
+    display: none;
 }
 
 .banner3 ul {
-    width: 48%;
+    width: 30%;
     background-color: rgba(239, 239, 239, 0.281);
     border-radius: 30px;
     padding: 20px;
     padding-bottom: 20px;
 }
 
-/*
+/* 
 .banner3 img {
     width: 25vw;
     padding: 50px;
 } */
 
 .ketua {
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 8px;
 }
 
 .ketua h3 {
@@ -366,6 +399,7 @@ nav ul li:hover {
     background-color: rgb(18, 47, 121);
     z-index: -1;
 }
+
 .contact h2 {
     color: white;
     width: 80%;
@@ -441,12 +475,13 @@ footer {
 }
 
 footer h5 {
-    padding: 5px;
+    padding: 10px;
 }
 
 #home {
     padding-top: 50px;
 }
+
 @media only screen and (max-width:1200px) {
     nav ul a li {
         display: none;
@@ -509,6 +544,9 @@ footer h5 {
     }
     .banner3 h2 {
         display: none;
+    }
+    .judul{
+        display: block;
     }
     .banner3 ul {
         padding: 30px;

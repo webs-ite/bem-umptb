@@ -754,21 +754,18 @@ footer h5 {
         width: 335px;
         padding-bottom: 20px;
         padding-top: 10px;
-        margin-left: -50px;
-        margin-right: -50px;
+        margin-left: -45px;
+    }
     }
     .visi img {
         width: 335px;
         padding-bottom: 20px;
-        margin-left: -50px;
-        margin-right: -50px;
+        margin-left: -45px;
     }
     .misi img {
         width: 330px;
         padding-bottom: 20px;
-        margin-left: -50px;
-        margin-right: -50px;
-    }
+        margin-left: -45px;
     }
     .motto img:hover {
         transform: scale(1.3);

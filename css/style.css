@@ -56,6 +56,7 @@ nav ul li {
 
 nav ul li:hover {
     color: darkorange;
+    transform: scale(1.1);
 }
 
 .sosmed i:hover {
@@ -205,7 +206,7 @@ nav ul li:hover {
 /* page3 */
 
 .banner2 {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url('../img/banner2.jpg');
     background-size: cover;
     position: relative;
@@ -214,7 +215,7 @@ nav ul li:hover {
     align-items: center;
     z-index: 1;
     cursor: default;
-    padding-top: 80px;
+    padding-top: 100px;
 }
 
 .banner2::after {
@@ -246,29 +247,77 @@ nav ul li:hover {
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
 }
-.motto{
+
+.banner2 ul {
+    padding: 50px;
+}
+
+.motobg {
+    height: 85vh;
     width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: gold;
+    background: radial-gradient(white, royalblue);
+    box-shadow: 10px 1px 23px rgb(70, 70, 70);
+    display: block;
+}
+
+.motto {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.motto img {
+    width: 40em;
+    margin: auto;
+}
+
+.motto img:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
+.visi {
+    width: 100%;
     margin: auto;
     padding-bottom: 30px;
 }
-.motto h2{
-    padding-bottom: 20px;
+
+.visi img {
+    width: 40em;
+    float: left;
+    padding-left: 50px;
 }
-.visi{
-    width: 80%;
+
+.visi img:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
+}
+
+.misi {
+    width: 90%;
     margin: auto;
     padding-bottom: 30px;
 }
-.visi h2{
+
+.misi h2 {
     padding-bottom: 20px;
 }
-.misi{
-    width: 80%;
+
+.misi img {
+    width: 40em;
+    float: right;
     margin: auto;
-    padding-bottom: 30px;
+    left: 0;
 }
-.misi h2{
-    padding-bottom: 20px;
+
+.misi img:hover {
+    transform: scale(1.2);
+    transition: ease-in-out 1s;
 }
 
 /* page4 */
@@ -318,6 +367,7 @@ nav ul li:hover {
     padding: 5px;
     display: none;
 } */
+
 .judul {
     font-size: 3ex;
     font-family: 'Allerta Stencil';
@@ -461,7 +511,7 @@ nav ul li:hover {
 
 iframe {
     width: 78%;
-    height: 250px;
+    height: 350px;
     padding: 30px;
 }
 
@@ -498,6 +548,36 @@ footer h5 {
     }
     .banner h3 {
         font-size: 14ex;
+    }
+    .banner2 {
+        height: 100vh;
+    }
+    .motobg {
+        width: 80%;
+        height: 85vh;
+    }
+    .motto img {
+        min-width: 50vw;
+        padding-bottom: 20px;
+    }
+    .visi img {
+        width: 550px;
+        padding-bottom: 40px;
+    }
+    .misi img {
+        width: 550px;
+    }
+    .motto img:hover {
+        transform: scale(1.1);
+        transition: ease-in-out 1s;
+    }
+    .visi img:hover {
+        transform: scale(1.1);
+        transition: ease-in-out 1s;
+    }
+    .misi img:hover {
+        transform: scale(1.1);
+        transition: ease-in-out 1s;
     }
     .ketua h3 {
         font-size: 15px;
@@ -539,13 +619,31 @@ footer h5 {
     #check:checked~.sidebar {
         transition: 1s;
     }
+    .motobg {
+        width: 90%;
+        height: 80vh;
+    }
+    .motto img {
+        min-width: 55vw;
+        padding-bottom: 20px;
+    }
+    .visi img {
+        min-width: 50vw;
+        padding-bottom: 40px;
+        margin-left: -90px;
+    }
+    .misi img {
+        min-width: 50vw;
+        padding-bottom: 20px;
+        margin-right: -60px;
+    }
     .banner3 ul {
         width: 80%;
     }
     .banner3 h2 {
         display: none;
     }
-    .judul{
+    .judul {
         display: block;
     }
     .banner3 ul {
@@ -585,7 +683,22 @@ footer h5 {
         width: 100%;
     }
 }
-
+@media only screen and (max-width:640px) {
+    .motto img{
+        width: 90vw;
+        padding-bottom: 70px;
+        padding-top: 10px;
+    }
+    .visi img{
+        width: 70vw;
+        margin-left: -60px;
+        padding-bottom: 60px;
+    }
+    .misi img{
+        width: 70vw;
+        margin-right: -40px;
+    }
+}
 @media only screen and (max-width:510px) {
     .banner h2 {
         font-size: 6ex;
@@ -601,6 +714,23 @@ footer h5 {
     }
     #check:checked~.sidebar {
         top: 70px;
+    }
+    .motobg {
+        width: 95%;
+    }
+    .motto img {
+        width: 90vw;
+        padding-bottom: 40px;
+    }
+    .visi img {
+        width: 85vw;
+        padding-bottom: 50px;
+        margin-left: -80px;
+    }
+    .misi img {
+        width: 90vw;
+        padding-bottom: 20px;
+        margin-right: -65px;
     }
     .banner3 {
         height: inherit;

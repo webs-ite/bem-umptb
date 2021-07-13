@@ -238,6 +238,7 @@ nav ul li:hover {
     z-index: -1;
 }
 
+/* 
 .banner2 h2 {
     font-size: 4ex;
     font-family: 'Allerta Stencil';
@@ -254,72 +255,191 @@ nav ul li:hover {
     color: lavender;
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-}
+} */
 
 .banner2 ul {
     padding: 50px;
 }
 
 .motobg {
-    height: 85vh;
-    width: 80%;
+    height: 70vh;
+    width: 75%;
     margin: auto;
+    padding: 50px;
     border-radius: 20px;
-    border: 3px solid;
-    border-color: gold;
-    background: radial-gradient(rgb(0, 255, 238), rgba(255, 0, 0, 0.263));
-    box-shadow: 10px 1px 23px rgb(70, 70, 70);
+    border: 2px solid white;
+    box-shadow: 10px 5px 10px rgba(28, 28, 28, 0.694);
 }
 
-.motto {
-    width: 100%;
-    margin: auto;
+.bgvisi {
+    height: fit-content;
     display: flex;
-    padding-bottom: 30px;
-}
-
-.motto img {
-    width: 700px;
     margin: auto;
-}
-
-.motto img:hover {
-    transform: scale(1.2);
-    transition: ease-in-out 1s;
+    padding-bottom: 50px;
 }
 
 .visi {
-    width: 100%;
-    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(26, 6, 126);
+    border-radius: 100%;
+    border: 5px solid white;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    padding-bottom: 30px;
+    color: rgb(255, 114, 26);
+    font-size: 50px;
+    text-shadow: 2px 2px 1px white;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
 }
 
-.visi img {
-    width: 650px;
+.isivisi {
+    width: 65%;
+    height: fit-content;
+    background-color: rgb(26, 6, 126);
+    border-radius: 20px;
+    border: 3px solid rgb(43, 0, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bgmisi {
+    height: fit-content;
+    display: flex;
     margin: auto;
-}
-
-.visi img:hover {
-    transform: scale(1.2);
-    transition: ease-in-out 1s;
+    float: right;
+    padding-bottom: 50px;
 }
 
 .misi {
-    width: 100%;
-    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(126, 6, 126);
+    border-radius: 100%;
+    border: 5px solid white;
+    align-items: center;
+    justify-content: center;
     display: flex;
-    padding-bottom: 30px;
+    color: rgb(255, 114, 26);
+    font-size: 50px;
+    text-shadow: 2px 2px 1px white;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
 }
 
-.misi img {
-    width: 600px;
+.isimisi {
+    width: 80%;
+    height: fit-content;
+    background-color: rgb(126, 6, 126);
+    border-radius: 30px;
+    border: 3px solid rgb(255, 0, 255);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.bgmotto {
+    height: fit-content;
+    display: flex;
     margin: auto;
+    float: left;
 }
 
-.misi img:hover {
-    transform: scale(1.2);
-    transition: ease-in-out 1s;
+.motto {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(36, 120, 106);
+    border-radius: 100%;
+    border: 5px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 114, 26);
+    font-size: 30px;
+    text-shadow: 2px 2px 1px white;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
+}
+
+.isimotto {
+    width: 68%;
+    height: fit-content;
+    background-color: rgb(36, 120, 106);
+    border-radius: 20px;
+    border: 3px solid rgb(0, 255, 213);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bgacc {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    margin: auto;
+    margin-top: 350px;
+}
+
+.acc {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 2.5px solid white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: rgb(255, 114, 26);
+    font-size: 30px;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.isiacc {
+    width: 80%;
+    height: fit-content;
+    border-radius: 20px;
+    border: 3px solid white;
+    display: flex;
+    color: rgba(255, 255, 255, 0.619);
+    font-size: 15px;
+    box-shadow: 5px 0 10px rgb(52, 52, 52);
+    padding: 20px;
+    margin-left: 23px;
+    margin-right: 23px;
+    margin-top: 20px;
+}
+
+.isivisi:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.isimisi:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.isimotto:hover {
+    transform: scale(1.1);
+    transition: 1s;
 }
 
 /* page4 */
@@ -352,49 +472,59 @@ nav ul li:hover {
 }
 
 .banner3 h2 {
-    font-size: 6ex;
+    font-size: 4ex;
     font-family: 'Allerta Stencil';
     text-align: center;
     color: white;
     z-index: 1;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-    padding-right: 80px;
+    padding: 20px;
     text-shadow: 2px 3px 1px black;
 }
 
-/* .banner3 h3 {
-    font-size: 3ex;
-    font-family: 'Allerta Stencil';
-    text-align: center;
-    padding: 5px;
-    display: none;
-} */
-
 .judul {
-    font-size: 3ex;
+    font-size: 1ex;
     font-family: 'Allerta Stencil';
     text-align: center;
-    padding: 5px;
     display: none;
 }
 
 .banner3 ul {
-    width: 30%;
+    width: 27%;
     background-color: rgba(239, 239, 239, 0.281);
     border-radius: 30px;
     padding: 20px;
-    padding-bottom: 20px;
+    margin-top: 30px;
 }
-
-/* 
-.banner3 img {
-    width: 25vw;
-    padding: 50px;
-} */
 
 .ketua {
     padding-top: 20px;
-    padding-bottom: 8px;
+}
+
+.ketua img {
+    width: 140px;
+    border-radius: 100px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.presma {
+    display: flex;
+}
+
+.wapres {
+    display: flex;
+}
+
+.infostr {
+    width: 200px;
+    float: right;
+    margin: auto;
+    padding: 10px;
+    border-style: outset;
+    border-radius: 10px;
+    background-color: rgb(53, 91, 126);
+
 }
 
 .ketua h3 {
@@ -556,30 +686,50 @@ footer h5 {
     }
     .motobg {
         width: 80%;
-        height: 85vh;
+        height: inherit;
+        border: none;
+        box-shadow: none;
     }
-    .motto img {
-        width: 550px;
-        padding-bottom: 20px;
+    .visi {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
     }
-    .visi img {
-        width: 550px;
-        padding-bottom: 40px;
+    .isivisi {
+        font-size: 13px;
+        margin-top: 5px;
     }
-    .misi img {
-        width: 550px;
+    .bgmisi {
+        padding-top: 20px;
+        margin-bottom: 30px;
     }
-    .motto img:hover {
-        transform: scale(1.1);
-        transition: ease-in-out 1s;
+    .misi {
+        height: 80px;
+        width: 80px;
+        font-size: 30px;
     }
-    .visi img:hover {
-        transform: scale(1.1);
-        transition: ease-in-out 1s;
+    .isimisi {
+        font-size: 13px;
     }
-    .misi img:hover {
-        transform: scale(1.1);
-        transition: ease-in-out 1s;
+    .motto {
+        height: 80px;
+        width: 80px;
+        font-size: 18px;
+    }
+    .isimotto {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .bgmotto {
+        margin-bottom: 60px;
+    }
+    .acc {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .isiacc {
+        width: 70%;
     }
     .ketua h3 {
         font-size: 15px;
@@ -622,20 +772,39 @@ footer h5 {
         transition: 1s;
     }
     .motobg {
-        width: 90%;
-        height: 80vh;
+        width: 80%;
+        height: 55vh;
     }
-    .motto img {
-        width: 550px;
-        padding-bottom: 20px;
+    .visi {
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
     }
-    .visi img {
-        width: 550px;
-        padding-bottom: 20px;
+    .isivisi {
+        font-size: 15px;
     }
-    .misi img {
-        width: 550px;
-        padding-bottom: 20px;
+    .bgmisi {
+        padding-top: 20px;
+    }
+    .misi {
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+    }
+    .isimisi {
+        width: 60%;
+        font-size: 14px;
+    }
+    .motto {
+        height: 80px;
+        width: 80px;
+        font-size: 18px;
+    }
+    .isimotto {
+        font-size: 15px;
+    }
+    .isiacc {
+        width: 60%;
     }
     .banner3 ul {
         width: 80%;
@@ -684,49 +853,40 @@ footer h5 {
     }
 }
 
-@media only screen and (max-width:740px) {
-    .motto img {
-        width: 500px;
-        padding-bottom: 20px;
+@media only screen and (max-width:600px) {
+    .visi {
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        border: 5px solid white;
     }
-    .visi img {
-        width: 500px;
-        padding-bottom: 20px;
+    .isivisi {
+        font-size: 12px;
+        margin-top: 10px;
+        width: 60%;
     }
-    .misi img {
-        width: 500px;
-        padding-bottom: 20px;
+    .bgmisi {
+        padding-top: 20px;
     }
-}
-
-@media only screen and (max-width:670px) {
-    .motto img {
-        width: 400px;
-        padding-bottom: 20px;
+    .misi {
+        height: 100px;
+        width: 100px;
+        font-size: 30px;
+        border: 5px solid white;
     }
-    .visi img {
-        width: 400px;
-        padding-bottom: 20px;
+    .isimisi {
+        font-size: 12px;
     }
-    .misi img {
-        width: 400px;
-        padding-bottom: 20px;
+    .motto {
+        height: 80px;
+        width: 80px;
+        font-size: 15px;
+        border: 3px solid white;
+        margin-top: 10px;
     }
-}
-
-@media only screen and (max-width:560px) {
-    .motto img {
-        width: 370px;
-        padding-bottom: 20px;
-        padding-top: 40px;
-    }
-    .visi img {
-        width: 370px;
-        padding-bottom: 20px;
-    }
-    .misi img {
-        width: 370px;
-        padding-bottom: 20px;
+    .isimotto {
+        font-size: 13px;
+        width: 60%;
     }
 }
 
@@ -747,37 +907,48 @@ footer h5 {
         top: 70px;
     }
     .motobg {
-        width: 95%;
-        border: 30px:
+        width: 90%;
+        margin: auto;
     }
-    .motto img {
-        width: 335px;
-        padding-bottom: 20px;
-        padding-top: 10px;
-        margin-left: -45px;
+    .visi {
+        height: 50px;
+        width: 50px;
+        font-size: 15px;
+        border: 3px solid white;
     }
+    .isivisi {
+        font-size: 10px;
+        width: 40%;
     }
-    .visi img {
-        width: 335px;
-        padding-bottom: 20px;
-        margin-left: -45px;
+    .misi {
+        height: 50px;
+        width: 50px;
+        font-size: 15px;
+        border: 3px solid white;
     }
-    .misi img {
-        width: 330px;
-        padding-bottom: 20px;
-        margin-left: -45px;
+    .isimisi {
+        font-size: 10px;
+        width: 40%;
     }
-    .motto img:hover {
-        transform: scale(1.3);
-        transition: ease-in-out 1s;
+    .motto {
+        height: 40px;
+        width: 40px;
+        font-size: 10px;
+        border: 3px solid white;
     }
-    .visi img:hover {
-        transform: scale(1.3);
-        transition: ease-in-out 1s;
+    .isimotto {
+        font-size: 10px;
+        width: 40%;
     }
-    .misi img:hover {
-        transform: scale(1.3);
-        transition: ease-in-out 1s;
+    .isiacc {
+        width: 30%;
+        font-size: 5px;
+        padding: 10px;
+    }
+    .acc {
+        width: 30px;
+        height: 30px;
+        font-size: 10px;
     }
     .banner3 {
         height: inherit;

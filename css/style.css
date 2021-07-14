@@ -223,6 +223,7 @@ nav ul li:hover {
     align-items: center;
     z-index: 1;
     cursor: default;
+    padding: 50px;
     padding-top: 100px;
 }
 
@@ -238,208 +239,212 @@ nav ul li:hover {
     z-index: -1;
 }
 
-/* 
-.banner2 h2 {
-    font-size: 4ex;
-    font-family: 'Allerta Stencil';
-    text-align: center;
-    color: lavender;
-    z-index: 1;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-}
-
-.banner2 h3 {
-    font-size: 2ex;
-    font-family: 'Allerta Stencil';
-    text-align: center;
-    color: lavender;
-    z-index: 1;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.592);
-} */
-
-.banner2 ul {
-    padding: 50px;
-}
-
-.motobg {
-    height: 70vh;
-    width: 75%;
-    margin: auto;
-    padding: 50px;
-    border-radius: 20px;
-    border: 2px solid white;
-    box-shadow: 10px 5px 10px rgba(28, 28, 28, 0.694);
-}
-
-.bgvisi {
-    height: fit-content;
-    display: flex;
-    margin: auto;
-    padding-bottom: 50px;
-}
-
-.visi {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(26, 6, 126);
-    border-radius: 100%;
-    border: 5px solid white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: rgb(255, 114, 26);
-    font-size: 50px;
-    text-shadow: 2px 2px 1px white;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-}
-
-.isivisi {
-    width: 65%;
-    height: fit-content;
-    background-color: rgb(26, 6, 126);
-    border-radius: 20px;
-    border: 3px solid rgb(43, 0, 255);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white;
-    font-size: 15px;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-    padding: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.bgmisi {
-    height: fit-content;
-    display: flex;
-    margin: auto;
-    float: right;
-    padding-bottom: 50px;
-}
-
-.misi {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(126, 6, 126);
-    border-radius: 100%;
-    border: 5px solid white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: rgb(255, 114, 26);
-    font-size: 50px;
-    text-shadow: 2px 2px 1px white;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-}
-
-.isimisi {
+.bgx {
     width: 80%;
     height: fit-content;
-    background-color: rgb(126, 6, 126);
-    border-radius: 30px;
-    border: 3px solid rgb(255, 0, 255);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white;
-    font-size: 15px;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-    padding: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
+    margin: auto;
+    box-shadow: 0 1px 5px 5px rgba(77, 77, 77, 0.616);
+    background-image: url(../img/wa.png);
+    border-radius: 15px;
 }
 
-.bgmotto {
-    height: fit-content;
+.atas {
+    height: 50px;
+    background-color: rgb(226, 226, 226);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0 1px rgba(184, 184, 184, 0.802);
+    border-radius: 15px 15px 0 0;
+}
+
+.containerx {
+    width: 96%;
+    margin: auto;
+}
+
+.foto img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
     display: flex;
     margin: auto;
+    align-items: center;
+    justify-content: center;
     float: left;
+    cursor: pointer;
 }
 
-.motto {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(36, 120, 106);
-    border-radius: 100%;
-    border: 5px solid white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: rgb(255, 114, 26);
-    font-size: 30px;
-    text-shadow: 2px 2px 1px white;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-}
-
-.isimotto {
-    width: 90%;
-    height: fit-content;
-    background-color: rgb(36, 120, 106);
-    border-radius: 20px;
-    border: 3px solid rgb(0, 255, 213);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    color: white;
-    font-size: 15px;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-    padding: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.bgacc {
+.nama {
     width: 100%;
-    height: fit-content;
+    margin-left: 8px;
+    padding: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.nama p {
+    font-size: 13px;
+    padding-top: 5px;
+    color: rgb(84, 84, 84);
+}
+
+.icon {
+    float: right;
     display: flex;
     margin: auto;
-    margin-top: 350px;
+    font-size: 20px;
+    cursor: pointer;
 }
 
-.acc {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    border: 2.5px solid white;
-    align-items: center;
-    justify-content: center;
+.fa-search {
+    padding-right: 30px;
+    color: rgba(84, 84, 84, 0.61);
+}
+
+.fa-ellipsis-v {
+    color: rgba(84, 84, 84, 0.61);
+}
+
+.bgcontent {
+    display: block;
+    margin: auto;
+    width: 92%;
+    height: 600px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.bgcontent::-webkit-scrollbar {
+    width: 1px;
+    margin: 0;
+}
+
+.contentstat {
+    display: block;
+    margin-left: 45%;
+}
+
+.boxstat {
+    width: fit-content;
+    background-color: rgba(114, 222, 255, 0.61);
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.contentisi {
     display: flex;
-    color: rgb(255, 114, 26);
-    font-size: 30px;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
     margin-top: 20px;
-    margin-left: 5px;
+    max-width: 60%;
+    padding-left: 50px;
 }
 
-.isiacc {
-    width: 80%;
+.lancip {
+    height: 0px;
+    width: 0px;
+    border-top: solid 20px white;
+    border-left: solid 20px transparent;
+    border-right: solid 0px transparent;
+    margin-right: -10px;
+}
+
+.boxisi {
+    width: fit-content;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contentisi2 {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    float: right;
+    max-width: 61.5%;
+    padding-right: 50px;
+}
+
+.lancip2 {
+    height: 0px;
+    width: 0px;
+    border-top: solid 20px rgb(171, 255, 199);
+    border-left: solid 0px transparent;
+    border-right: solid 20px transparent;
+    margin-left: -10px;
+}
+
+.boxisi2 {
+    width: fit-content;
+    background-color: rgb(171, 255, 199);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.contentisi3 {
+    display: flex;
+    width: 100%;
+    max-width: 60%;
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+.lancip3 {
+    height: 0px;
+    width: 0px;
+    border-top: solid 20px white;
+    border-left: solid 20px transparent;
+    border-right: solid 0px transparent;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+
+.boxisi3 {
+    width: fit-content;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.bawah {
+    height: 45px;
+    background-color: rgb(226, 226, 226);
+    padding: 15px;
+    box-shadow: 0 -1px 1px rgba(184, 184, 184, 0.802);
+    z-index: 9999;
+    margin-top: 1px;
+    border-radius: 0 0 15px 15px;
+}
+
+.containerx {
+    width: 96%;
+    margin: auto;
+    display: flex;
+}
+
+.boxbawah {
+    width: 85%;
     height: fit-content;
-    border-radius: 20px;
-    border: 3px solid white;
+    padding: 10px;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 80px;
+    color: rgba(84, 84, 84, 0.349);
+    border: 2px solid rgb(194, 194, 194);
+    background-color: white;
+}
+
+.icon2 {
+    float: right;
     display: flex;
-    color: rgba(255, 255, 255, 0.619);
-    font-size: 15px;
-    box-shadow: 5px 0 10px rgb(52, 52, 52);
-    padding: 20px;
-    margin-left: 23px;
-    margin-right: 23px;
-    margin-top: 20px;
-}
-
-.isivisi:hover {
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.isimisi:hover {
-    transform: scale(1.1);
-    transition: 1s;
-}
-
-.isimotto:hover {
-    transform: scale(1.1);
-    transition: 1s;
+    margin: auto;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgba(84, 84, 84, 0.61);
 }
 
 /* page4 */
@@ -524,7 +529,6 @@ nav ul li:hover {
     border-style: outset;
     border-radius: 10px;
     background-color: rgb(53, 91, 126);
-
 }
 
 .ketua h3 {
@@ -542,7 +546,7 @@ nav ul li:hover {
 }
 
 .menteri p {
-    text-align: center;
+    text-align: left;
     padding: 10px 20px;
     background-color: rgb(53, 91, 126);
     border-style: outset;
@@ -684,53 +688,6 @@ footer h5 {
     .banner2 {
         height: 100vh;
     }
-    .motobg {
-        width: 80%;
-        height: inherit;
-        border: none;
-        box-shadow: none;
-    }
-    .visi {
-        height: 80px;
-        width: 80px;
-        font-size: 30px;
-    }
-    .isivisi {
-        font-size: 13px;
-        margin-top: 5px;
-    }
-    .bgmisi {
-        padding-top: 20px;
-        margin-bottom: 30px;
-    }
-    .misi {
-        height: 80px;
-        width: 80px;
-        font-size: 30px;
-    }
-    .isimisi {
-        font-size: 13px;
-    }
-    .motto {
-        height: 80px;
-        width: 80px;
-        font-size: 18px;
-    }
-    .isimotto {
-        font-size: 13px;
-        margin-top: 10px;
-    }
-    .bgmotto {
-        margin-bottom: 60px;
-    }
-    .acc {
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
-    }
-    .isiacc {
-        width: 70%;
-    }
     .ketua h3 {
         font-size: 15px;
     }
@@ -771,40 +728,57 @@ footer h5 {
     #check:checked~.sidebar {
         transition: 1s;
     }
-    .motobg {
-        width: 80%;
-        height: 55vh;
+    .bgx {
+        width: 100%;
+        height: 640px;
     }
-    .visi {
-        height: 100px;
-        width: 100px;
-        font-size: 30px;
+    .bgcontentx {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 115%;
+        height: 550px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
     }
-    .isivisi {
+    ::-webkit-scrollbar {
+        width: 1px;
+    }
+    .contentstat {
+        margin-left: 35%;
+    }
+    .contentisi {
+        max-width: 70%;
+        padding-left: 30px;
+    }
+    .contentisi2 {
+        max-width: 70%;
+    }
+    .contentisi3 {
+        margin-top: 20px;
+        padding-left: 30px;
+    }
+    .bawah {
+        height: 48px;
+        padding: 10px;
+    }
+    .boxbawah {
+        height: 20px;
+        margin: 0;
+        padding-left: 20px;
+        width: 300px;
         font-size: 15px;
+        border-radius: 20px;
     }
-    .bgmisi {
-        padding-top: 20px;
+    .icon2 {
+        width: 50px;
+        margin: auto;
     }
-    .misi {
-        height: 100px;
-        width: 100px;
-        font-size: 30px;
+    .fa-paperclip {
+        font-size: 0px;
     }
-    .isimisi {
-        width: 60%;
-        font-size: 14px;
-    }
-    .motto {
-        height: 80px;
-        width: 80px;
-        font-size: 18px;
-    }
-    .isimotto {
-        font-size: 15px;
-    }
-    .isiacc {
-        width: 60%;
+    .fa-microphone {
+        margin-left: 20px;
     }
     .banner3 ul {
         width: 80%;
@@ -853,43 +827,6 @@ footer h5 {
     }
 }
 
-@media only screen and (max-width:600px) {
-    .visi {
-        height: 100px;
-        width: 100px;
-        font-size: 30px;
-        border: 5px solid white;
-    }
-    .isivisi {
-        font-size: 12px;
-        margin-top: 10px;
-        width: 60%;
-    }
-    .bgmisi {
-        padding-top: 20px;
-    }
-    .misi {
-        height: 100px;
-        width: 100px;
-        font-size: 30px;
-        border: 5px solid white;
-    }
-    .isimisi {
-        font-size: 12px;
-    }
-    .motto {
-        height: 80px;
-        width: 80px;
-        font-size: 15px;
-        border: 3px solid white;
-        margin-top: 10px;
-    }
-    .isimotto {
-        font-size: 13px;
-        width: 60%;
-    }
-}
-
 @media only screen and (max-width:510px) {
     .banner h2 {
         font-size: 6ex;
@@ -906,49 +843,65 @@ footer h5 {
     #check:checked~.sidebar {
         top: 70px;
     }
-    .motobg {
-        width: 90%;
+    .banner2 {
+        height: inherit;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .bgx {
+        width: 100%;
+    }
+    .bgcontentx {
+        display: flex;
+        flex-direction: column;
         margin: auto;
+        width: 115%;
+        height: 550px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
     }
-    .visi {
-        height: 50px;
-        width: 50px;
-        font-size: 15px;
-        border: 3px solid white;
+    ::-webkit-scrollbar {
+        width: 1px;
     }
-    .isivisi {
-        font-size: 10px;
-        width: 40%;
+    .atas {
+        font-size: 14px;
+        padding-left: 15px;
     }
-    .misi {
-        height: 50px;
-        width: 50px;
-        font-size: 15px;
-        border: 3px solid white;
+    .contentstat {
+        margin-left: 35%;
     }
-    .isimisi {
-        font-size: 10px;
-        width: 40%;
+    .contentisi {
+        max-width: 70%;
+        padding-left: 30px;
     }
-    .motto {
-        height: 40px;
-        width: 40px;
-        font-size: 10px;
-        border: 3px solid white;
+    .contentisi2 {
+        max-width: 70%;
     }
-    .isimotto {
-        font-size: 10px;
-        width: 40%;
+    .contentisi3 {
+        margin-top: 20px;
+        padding-left: 30px;
     }
-    .isiacc {
-        width: 30%;
-        font-size: 5px;
+    .bawah {
+        height: 48px;
         padding: 10px;
     }
-    .acc {
-        width: 30px;
-        height: 30px;
-        font-size: 10px;
+    .boxbawah {
+        height: 20px;
+        margin: 0;
+        padding-left: 20px;
+        width: 300px;
+        font-size: 15px;
+        border-radius: 20px;
+    }
+    .icon2 {
+        width: 50px;
+        margin: auto;
+    }
+    .fa-paperclip {
+        font-size: 0px;
+    }
+    .fa-microphone {
+        margin-left: 20px;
     }
     .banner3 {
         height: inherit;

@@ -619,6 +619,7 @@ nav ul li:hover {
 
 .lokasi p {
     padding: 10px;
+    font-weight: bold;
 }
 
 .kontak h4 {
@@ -629,6 +630,7 @@ nav ul li:hover {
 
 .kontak p {
     padding: 10px;
+    font-weight: bold;
 }
 
 .alamat h4 {
@@ -639,6 +641,7 @@ nav ul li:hover {
 
 .alamat p {
     padding: 10px;
+    font-weight: bold;
 }
 
 .jarak {
@@ -730,19 +733,22 @@ footer h5 {
     }
     .bgx {
         width: 100%;
-        height: 640px;
+        height: 685px;
     }
-    .bgcontentx {
+    .isix {
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 115%;
-        height: 550px;
-        overflow-y: scroll;
+        width: 100%;
+        height: 548px;
+        overflow: hidden;
         scroll-behavior: smooth;
     }
-    ::-webkit-scrollbar {
-        width: 1px;
+    .bgcontentx {
+        height: 548px;
+        overflow: auto;
+        margin-right: -500px;
+        padding-right: 470px;
     }
     .contentstat {
         margin-left: 35%;
@@ -782,18 +788,37 @@ footer h5 {
     }
     .banner3 ul {
         width: 80%;
+        padding: 30px;
+        margin-top: 60px;
+    }
+    .banner3 {
+        display: flex;
+        flex-direction: column;
+        height: inherit;
     }
     .banner3 h2 {
         display: none;
     }
     .judul {
         display: block;
-    }
-    .banner3 ul {
-        padding: 30px;
+        font-size: 20px;
     }
     .ketua {
         padding-bottom: 25px;
+        padding-top: 20px;
+    }
+    .ketua img {
+        width: 140px;
+    }
+    .infostr {
+        width: 150px;
+        height: 60px;
+        float: right;
+        margin: auto;
+        margin-top: 20px;
+        border-style: outset;
+        border-radius: 20px;
+        background-color: rgb(53, 91, 126);
     }
     .jarak {
         width: 2%;
@@ -834,9 +859,6 @@ footer h5 {
     .banner h3 {
         font-size: 6ex;
     }
-    .sidebar {
-        /* width: 20vh; */
-    }
     .sidebar ul a li {
         font-size: 16px;
     }
@@ -851,17 +873,20 @@ footer h5 {
     .bgx {
         width: 100%;
     }
-    .bgcontentx {
+    .isix {
         display: flex;
         flex-direction: column;
         margin: auto;
-        width: 115%;
-        height: 550px;
-        overflow-y: scroll;
+        width: 100%;
+        height: 548px;
+        overflow: hidden;
         scroll-behavior: smooth;
     }
-    ::-webkit-scrollbar {
-        width: 1px;
+    .bgcontentx {
+        height: 548px;
+        overflow: auto;
+        margin-right: -500px;
+        padding-right: 470px;
     }
     .atas {
         font-size: 14px;
@@ -925,8 +950,21 @@ footer h5 {
     .ketua h3 {
         font-size: 12px;
     }
+    .ketua img {
+        width: 120px;
+    }
+    .infostr {
+        width: 150px;
+        height: 60px;
+        float: right;
+        margin: auto;
+        margin-top: 20px;
+        border-style: outset;
+        border-radius: 20px;
+        background-color: rgb(53, 91, 126);
+    }
     .menteri p {
-        font-size: 10px;
+        font-size: 14px;
     }
     .kolombawah {
         display: inline;

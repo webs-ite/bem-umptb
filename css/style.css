@@ -981,6 +981,9 @@ footer h5 {
     .alamat {
         padding-bottom: 20px;
     }
+    footer{
+        height: fit-content;
+    }
     footer h5 {
         font-size: 10px;
     }

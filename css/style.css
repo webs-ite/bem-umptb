@@ -14,6 +14,74 @@ body {
     background-color: rgba(245, 245, 245, 0.788);
 }
 
+@keyframes autopopup {
+    from {
+        opacity: 0;
+        margin-top: -200px;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#close {
+    background-color: rgba(0, 0, 0, 0.864);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    animation: autopopup 1.0s;
+    z-index: 9999;
+}
+
+#close:target {
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container-popup {
+    width: 30%;
+    top: 40vh;
+    position: relative;
+    background-color: rgba(4, 0, 255, 0.604);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 18px 20px 20px 20px;
+    border-radius: 10px;
+    border-style: outset;
+    box-shadow: 0 1px 5px 5px rgba(77, 77, 77, 0.616);
+}
+
+.container-popup img {
+    width: 100%;
+}
+
+.close {
+    position: absolute;
+    top: -60px;
+    right: 0;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 1;
+    color: #fff;
+    z-index: 999;
+    border: 3px solid white;
+}
+
+.close:hover {
+    background-color: orange;
+}
+
 header {
     height: 80px;
     box-shadow: 0 3px 15px black;
@@ -672,6 +740,10 @@ footer h5 {
 }
 
 @media only screen and (max-width:1200px) {
+    .container-popup{
+        width: 50%;
+        top: 40vh;
+    }
     nav ul a li {
         display: none;
     }
@@ -713,6 +785,9 @@ footer h5 {
 }
 
 @media only screen and (min-width:200px) and (max-width:800px) {
+    .container-popup{
+        width: 50%;
+    }
     .container {
         width: 100%;
     }
@@ -853,6 +928,9 @@ footer h5 {
 }
 
 @media only screen and (max-width:510px) {
+    .container-popup{
+        width: 70%;
+    }
     .banner h2 {
         font-size: 6ex;
     }
@@ -981,7 +1059,7 @@ footer h5 {
     .alamat {
         padding-bottom: 20px;
     }
-    footer{
+    footer {
         height: fit-content;
     }
     footer h5 {

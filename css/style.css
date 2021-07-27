@@ -540,7 +540,9 @@ nav ul li:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 94, 255, 0.5);
+    background: linear-gradient(rgba(76, 140, 250, 0.72),rgba(0, 94, 255, 0.5));
+    /* background-color: rgba(0, 69, 189, 0.678); */
+    /* background-color: rgba(0, 94, 255, 0.5); */
     z-index: -1;
 }
 

@@ -755,6 +755,114 @@ footer h5 {
     padding-top: 50px;
 }
 
+/* dropdown */
+
+.dropbtn {
+    font-family: 'Signika Negative', sans-serif;
+    color: royalblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropbtn:hover {
+    color: darkorange;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    margin: auto;
+    background-color: white;
+    min-width: 100px;
+    /* box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+    z-index: 1;
+    justify-content: center;
+}
+
+.dropdown-content1 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content1 {
+    display: block;
+}
+
+/* dropdown */
+
+/* galeri */
+.galeri {
+    margin-top: 20px;
+    height: 75vh;
+    width: 80%;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 20px; */
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.638);
+    text-align: center;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.galeri h4 {
+    color: royalblue;
+    padding: 5px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/* galeri */
+
+div.gallery {
+    border: 2px solid royalblue;
+    margin-bottom: 25px;
+}
+
+div.gallery:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+.responsive {
+    padding: 0 10px;
+    float: left;
+    width: 23.39999%;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* galeri */
+
 @media only screen and (max-width:1200px) {
     .container-popup {
         width: 50%;

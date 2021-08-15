@@ -540,7 +540,7 @@ nav ul li:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(rgba(76, 140, 250, 0.72),rgba(0, 94, 255, 0.5));
+    background: linear-gradient(rgba(76, 140, 250, 0.72), rgba(0, 94, 255, 0.5));
     /* background-color: rgba(0, 69, 189, 0.678); */
     /* background-color: rgba(0, 94, 255, 0.5); */
     z-index: -1;
@@ -689,7 +689,7 @@ nav ul li:hover {
 
 .lokasi p {
     padding: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .kontak h4 {
@@ -700,7 +700,7 @@ nav ul li:hover {
 
 .kontak p {
     padding: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .alamat h4 {
@@ -711,7 +711,7 @@ nav ul li:hover {
 
 .alamat p {
     padding: 10px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .jarak {
@@ -799,7 +799,54 @@ footer h5 {
 
 /* dropdown */
 
+/* dropdown */
+
+.dropbtn2 {
+    font-family: 'Signika Negative', sans-serif;
+    color: royalblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.dropbtn2:hover {
+    color: darkorange;
+}
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown2-content1 {
+    display: none;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.dropdown2-content1 a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown2:hover .dropdown2-content1 {
+    display: block;
+}
+
+/* dropdown */
+
 /* galeri */
+
 .galeri {
     margin-top: 20px;
     height: 75vh;
@@ -855,11 +902,12 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
 /* galeri */
 
@@ -920,6 +968,9 @@ div.desc {
     }
     .banner h3 {
         font-size: 10ex;
+    }
+    .dropdown {
+        display: none;
     }
     .sidebar {
         /* width: 25vh; */

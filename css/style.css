@@ -518,7 +518,7 @@ nav ul li:hover {
 /* page4 */
 
 .banner3 {
-    height: 80vh;
+    height: 85vh;
     background-image: url('../img/banner3.jpg');
     background-size: cover;
     position: relative;
@@ -577,10 +577,10 @@ nav ul li:hover {
 }
 
 .ketua img {
-    width: 80px;
+    width: 70px;
     border-radius: 100px;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .presma {
@@ -592,7 +592,7 @@ nav ul li:hover {
 }
 
 .infostr {
-    width: 100px;
+    width: 80px;
     float: right;
     margin: auto;
     padding: 10px;
@@ -633,7 +633,7 @@ nav ul li:hover {
 }
 
 .banner4 {
-    height: 100vh;
+    height: 120vh;
     background-image: url('../img/banner4.jpg');
     background-size: cover;
     position: relative;

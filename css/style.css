@@ -577,7 +577,7 @@ nav ul li:hover {
 }
 
 .ketua img {
-    width: 140px;
+    width: 100px;
     border-radius: 100px;
     background-color: white;
     margin-bottom: 20px;
@@ -592,7 +592,7 @@ nav ul li:hover {
 }
 
 .infostr {
-    width: 200px;
+    width: 150px;
     float: right;
     margin: auto;
     padding: 10px;

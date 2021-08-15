@@ -518,7 +518,7 @@ nav ul li:hover {
 /* page4 */
 
 .banner3 {
-    height: 100vh;
+    height: 80vh;
     background-image: url('../img/banner3.jpg');
     background-size: cover;
     position: relative;
@@ -577,7 +577,7 @@ nav ul li:hover {
 }
 
 .ketua img {
-    width: 100px;
+    width: 80px;
     border-radius: 100px;
     background-color: white;
     margin-bottom: 20px;
@@ -592,7 +592,7 @@ nav ul li:hover {
 }
 
 .infostr {
-    width: 150px;
+    width: 100px;
     float: right;
     margin: auto;
     padding: 10px;

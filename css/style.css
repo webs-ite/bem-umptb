@@ -1006,14 +1006,14 @@ div.desc {
     }
     .contentisi {
         max-width: 70%;
-        /* padding-left: 30px; */
+        padding-left: 0px;
     }
     .contentisi2 {
         max-width: 70%;
     }
     .contentisi3 {
         margin-top: 20px;
-        padding-left: 30px;
+        padding-left: 0px;
     }
     .bawah {
         height: 48px;
@@ -1158,18 +1158,18 @@ div.desc {
         padding-left: 15px;
     }
     .contentstat {
-        margin-left: 38%;
+        margin-left: 30%;
     }
     .contentisi {
         max-width: 70%;
-        padding-left: 30px;
+        padding-left: 0px;
     }
     .contentisi2 {
         max-width: 70%;
     }
     .contentisi3 {
         margin-top: 20px;
-        padding-left: 30px;
+        padding-left: 0px;
     }
     .bawah {
         height: 48px;

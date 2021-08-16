@@ -1109,6 +1109,9 @@ div.desc {
         float: none;
         width: 90.39999%;
     }
+    .galeri h4 {
+    padding: 0;
+    }
 }
 
 @media only screen and (max-width:510px) {

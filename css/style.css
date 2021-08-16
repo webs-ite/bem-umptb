@@ -896,7 +896,7 @@ div.desc {
 .responsive {
     padding: 0 10px;
     float: left;
-    width: 23.39999%;
+    width: 22.39999%;
 }
 
 .desc {
@@ -1100,6 +1100,14 @@ div.desc {
     }
     .contact {
         width: 100%;
+    }
+    .galeri{
+        display: block;
+    }
+    .responsive {
+        padding: 0 10px;
+        float: none;
+        width: 90.39999%;
     }
 }
 

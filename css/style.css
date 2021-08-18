@@ -1051,6 +1051,15 @@ div.desc {
     .banner h3 {
         font-size: 10ex;
     }
+    #slider{
+        width: 90%;
+    }
+    #slide-holder{
+        width: 800%;
+    }
+    .slide{
+        width: 350px;
+    }
     .dropdown {
         display: none;
     }
